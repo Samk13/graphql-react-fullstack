@@ -1,4 +1,7 @@
-node_modules
 build/
 dist/
-.cache
+dist
+node_modules
+.cache/*
+*.log
+.DS_Store

@@ -1,7 +1,11 @@
-import React from "react";
-
+import React from 'react'
+import Test from './components/Test'
 function App() {
-  return <div>lorem ipsum dolor sit amet</div>;
+  return (
+    <div>
+      <Test />
+    </div>
+  )
 }
 
-export default App;
+export default App
