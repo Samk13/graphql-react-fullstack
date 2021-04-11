@@ -1,9 +1,11 @@
-import React, {useState} from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 export default function navBar() {
-    const [activeItem, setActiveItem] = useState('')
-    const handleItemClick = (e, {name}) => setActiveItem(name)
+
+    const pathName = window.location.pathname
+
+    const path = pathName ===  '/' ? 'home' : pathName.substr(1)
 
     const Menu = styled.div`
         display:flex;
