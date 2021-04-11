@@ -3,9 +3,9 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 export default function navBar() {
 
-    const pathName = window.location.pathname
+    // const pathName = window.location.pathname
 
-    const path = pathName ===  '/' ? 'home' : pathName.substr(1)
+    // const path = pathName ===  '/' ? 'home' : pathName.substr(1)
 
     const Menu = styled.div`
         display:flex;
