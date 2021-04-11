@@ -1,0 +1,25 @@
+{
+  "name": "frontend-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./public/index.html --open",
+    "format": "prettier src/**/*.{js,html,css} --write",
+    "lint": "eslint src/**/*.{js,jsx} --quiet"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-react": "^7.23.2",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.2.1"
+  }
+}
